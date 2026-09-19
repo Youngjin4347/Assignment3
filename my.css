@@ -88,6 +88,9 @@ select.form-select {
     text-decoration: underline;
 }
 
+.hidden-column {
+    display: none;
+}
 .card {
     margin-top: 20px;
 }
