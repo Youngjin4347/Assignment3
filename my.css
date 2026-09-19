@@ -162,3 +162,59 @@ footer {
         gap: 5px;
     }
 }
+
+@media (min-width: 769px) {
+    main {
+        max-width: 1200px;
+    }
+
+    form {
+        max-width: 700px;
+    }
+
+    .book-detail-card {
+        max-width: 800px;
+    }
+
+    .table {
+        font-size: 16px;
+    }
+
+    .navbar-brand {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    form {
+        max-width: 100%;
+    }
+
+    .book-detail-card {
+        max-width: 100%;
+    }
+
+    .table {
+        font-size: 14px;
+    }
+
+    .book-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+}
